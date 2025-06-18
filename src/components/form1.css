@@ -143,3 +143,42 @@
   background: #512da8;
   color: #fff;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .so-modal {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .so-body,
+  .so-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .so-label {
+    min-width: auto;
+  }
+
+  .so-row input,
+  .so-row label {
+    width: 100%;
+  }
+
+  .so-editor-toolbar {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .so-footer {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: 4px;
+  }
+
+  .so-footer .so-btn {
+    width: 100%;
+  }
+}
